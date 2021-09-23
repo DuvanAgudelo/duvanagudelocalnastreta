@@ -23,7 +23,7 @@ def esMayorIgual(nat1:Nat,nat2:Nat):Boolean = nat1 match {
   }
   case Suc(pnat) => nat2 match {
     case Cero() => true
-    case Suc(snat) => es esMayorIgual(pnat,snat)
+    case Suc(snat) => esMayorIgual(pnat,snat)
   }
 }
 def conIntANat(n:Int) = {
