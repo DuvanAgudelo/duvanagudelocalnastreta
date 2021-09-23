@@ -29,7 +29,7 @@ def conIntANat(n:Int) = {
     case n => a(n-1,Suc(acum))
     }
     a(n,Cero())
-    }
+}
 
 def imprimirNat(n:Int):String
   @scala.annotation.tailrec
