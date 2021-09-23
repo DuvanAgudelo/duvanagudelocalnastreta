@@ -7,7 +7,7 @@ case class Cero() extends Nat
 case class Suc(nat:Nat) extends Nat
 
 object Main extends App {
-  def leerInt(prompt:Sring):Int ={
+  def leerInt(prompt:String):Int ={
     val s = StdIn.readLine(prompt)
     s.toInt
   }
