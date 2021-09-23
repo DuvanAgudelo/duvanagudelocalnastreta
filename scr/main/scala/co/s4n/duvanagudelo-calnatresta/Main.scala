@@ -35,7 +35,7 @@ def conIntANat(n:Int) = {
     a(n,Cero())
 }
 
-def imprimirNat(n:Int):String
+def imprimirNat(n:Int) = {
   @scala.annotation.tailrec
   def a(n:Int, acum:String):String = n match {
     case 0 => acum
