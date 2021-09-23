@@ -2,6 +2,10 @@ package co.s4n.calnat
 
 import scala.io.Stdin
 
+trait Nat
+case class Cero() extends Nat
+case class Suc(nat:Nat) extends Nat
+
 object Main extends App {
   def leerInt(prompt:Sring):Int ={
     val s = StdIn.readLine(prompt)
