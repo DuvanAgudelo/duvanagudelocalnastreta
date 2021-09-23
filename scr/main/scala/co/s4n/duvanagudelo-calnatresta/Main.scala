@@ -39,4 +39,3 @@ def imprimirNat(n:Int):String
     }
     a(n,"Cero")
 }
-def restaNat(nat1:Nat,nat2:Nat)=
