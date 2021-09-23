@@ -1,6 +1,6 @@
 package co.s4n.calnat
 
-import scala.io.Stdin
+import scala.io.StdIn
 
 trait Nat
 case class Cero() extends Nat
