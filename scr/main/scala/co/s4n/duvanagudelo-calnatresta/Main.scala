@@ -14,7 +14,7 @@ object Main extends App {
 }
 def esCero(nat:Nat) = nat match {
   case Cero() => true
-  case Suc(Nat) => false
+  case Suc(nat) => false
 }
 def esMayorIgual(nat1:Nat,nat2:Nat):Boolean = nat1 match {
   case Cero() => nat2 match {
